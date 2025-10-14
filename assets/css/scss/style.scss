@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato&Muli&display=swap");
 
 * {
   box-sizing: border-box;
@@ -9,15 +9,15 @@ a {
   text-decoration: none;
   color: inherit;
 }
-body {
-  font-family: "Muli" sans-serif;
-  display: flex;
-  align-items: center;
-  height: 100vh;
-  justify-content: center;
-  overflow: hidden;
-  margin: 0;
-}
+// body {
+//   font-family: "Muli", "Lato", sans-serif;
+//   display: flex;
+//   align-items: center;
+//   height: 100vh;
+//   justify-content: center;
+//   overflow: hidden;
+//   margin: 0;
+// }
 .container {
   width: 90vw;
   &[class*="page-home"] {
