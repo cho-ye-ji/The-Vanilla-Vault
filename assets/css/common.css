@@ -10,20 +10,10 @@ a {
   color: inherit;
 }
 
-body {
-  font-family: "Muli", "Lato", sans-serif;
-  display: flex;
-  align-items: center;
-  height: 100vh;
-  justify-content: center;
-  overflow: hidden;
-  margin: 0;
-}
-
 .container {
   width: 90vw;
 }
-.container[class*="page-home"] {
+.container[class*=page-home] {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -113,6 +103,7 @@ body {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  height: 100vh;
 }
 
 .container {
